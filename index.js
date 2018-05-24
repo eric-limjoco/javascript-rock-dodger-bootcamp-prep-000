@@ -140,6 +140,9 @@ function moveDodgerLeft() {
    */
   
   var left = positionToInteger(DODGER.style.left)
+  function move(){
+    DODGER.style.left
+  }
 }
 
 function moveDodgerRight() {
