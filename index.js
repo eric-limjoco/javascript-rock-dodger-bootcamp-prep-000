@@ -160,7 +160,7 @@ function moveDodgerRight() {
   function move(){
     DODGER.style.right = `${right += 4}px`
     
-    if(DODGER.style.left < 400) window.requestAnimationFrame(move)
+    if(DODGER.style.right < 400) window.requestAnimationFrame(move)
   }
   
   window.requestAnimationFrame(move)
